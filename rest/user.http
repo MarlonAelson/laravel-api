@@ -1,0 +1,14 @@
+GET http://127.0.0.1:8000/users
+
+###
+
+POST http://localhost:8000/users
+User-Agent: application/json
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+Content-Type: application/json
+
+{
+    "name": "Marlon Gomes",
+    "email": "teste55@gmail.com",
+    "password": "12345678"
+}
